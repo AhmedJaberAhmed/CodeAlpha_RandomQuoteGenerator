@@ -1,0 +1,43 @@
+name: qandomquoteqenerator
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.8.0+1
+  bloc: ^9.0.0
+  dartz: ^0.10.1
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.1
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/icon_app.png"
+
+flutter_native_splash:
+  color: "#F8F8F8"         # Light theme background (if needed)
+  color_dark: "#1E1E1E"    # Dark theme background
+  image: "lib/icon_app.png"
+  image_dark: "lib/icon_app.png"
+  android_gravity: center
+  ios_content_mode: center
+  fullscreen: true
+
